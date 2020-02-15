@@ -1,0 +1,622 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+display: flex;
+color: white;
+height: 30vh;
+background-color: #17213b;
+display: flex;
+font-family:  'Nosifer', cursive;
+}
+#cover-img1{
+    height: 380px;
+    z-index: 2;
+    padding: 0px 0px 0vh 156vh;
+    position: absolute;
+}
+#cover-img2{
+    height: 480px;
+    z-index: 3;
+    padding: 10vh 0px 0vh 90vh;
+    position: absolute;
+}
+#cover-img3{
+    height: 380px;
+    z-index: 3;
+    padding: 32vh 0px 0vh 125vh;
+    position: absolute;
+}
+#cover-img4{
+    height: 280px;
+    z-index: 1;
+    padding: 20vh 0px 0vh 160vh;
+    position: absolute;
+}
+#cover-img5{
+    height: 240px;
+    z-index: 3;
+    padding: 55vh 0px 0vh 100vh;
+    position: absolute;
+}
+#cover-img6{
+    height: 240px;
+    z-index: 3;
+    padding: 62vh 0px 0vh 155vh;
+    position: absolute;
+}
+.beard{
+    flex: 3;
+    margin: 30px 20px 30px 40px;
+    font-size: 26px;
+    font-style: italic;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#17213b;
+    color: black;
+}
+#button-menu{
+background-color: transparent;
+border: none;
+}
+#menu-open{
+    display: none;
+    
+    z-index: 6;
+    opacity: 0.9;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    color: black;
+   
+
+    
+}
+#button-menu-nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#links-h1{
+    font-family:  'Nosifer', cursive;
+    font-size: 38px;
+    font-style: italic;
+}
+#button-menu-navigation{
+    border: none;
+    background: transparent;
+
+   
+    
+   
+    
+
+}
+.links{
+   
+   
+    flex:1;
+    color: black;
+    list-style: none;
+    line-height: 100px;
+    text-align: center;
+    
+    
+   
+   
+}
+.link{
+    font-family: monospace;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    
+   
+  
+   
+    
+
+}
+.introduction{
+    display: flex;
+    height: 90vh;
+    background-color: #17213b;
+    width: 100%;
+}
+.beard-products{
+    
+
+    width: 60%;
+    height: 70vh;
+    background-color: white;
+    border-top-right-radius: 90px;
+}
+#beard-pr{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+.content{
+    display: flex;
+    height:30px ;
+    margin-left: 120px;
+    margin-right: 80px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-b-part1{
+height: 40vh;
+flex: 1;
+border-right: 1px solid silver;
+}
+.content-b-part2{
+height: 40vh;
+border-right: 1px solid silver;
+flex: 1;
+}
+.content-b-part3{
+    height: 40vh;
+
+flex: 1;
+
+flex: 1;
+}
+.social-media{
+    height: 10vh;
+    background-color: #17213b;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    word-spacing: 20px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+
+.scrolll{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+flex: 1;
+animation: MoveUpDown 1s linear infinite;
+position: relative;
+justify-content: center;
+left: 0;
+bottom: 0;
+display: flex;
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 30px;
+    }
+  }
+.bg-en{
+    flex: 1;
+    margin-right: 50px;
+}
+
+
+  .art-t{
+      margin-top: 50px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      height: 20vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+.articles{
+ height: 120vh;   
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ display: flex;
+ justify-content: center;
+ margin-left: 20vh;
+ margin-right: 20vh;
+
+
+
+}
+.shampoo img,.oil img,.vax img{
+    height: 400px;
+    padding-top: 20px;
+}
+#h1-beard-pr{
+ font-size: 50px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#paragraph-beard-pr{
+    padding-top: 20px;
+    height: 18vh;
+}
+#href-beard-pr{
+text-decoration: none;
+list-style: none;
+color: black;    
+font-size: 30px;
+padding-bottom: 50px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shampoo ,.oil,.vax{
+    padding: 10px 30px 10px 30px;
+}
+.shampoo{
+    display: block;
+    flex: 1;
+    height: 110vh;
+    text-align: center;
+     border-right: 1px solid silver;
+    
+   
+}
+.vax{
+    flex: 1;
+    height: 110vh;
+    display: block;
+    text-align: center;
+    border-right: 1px solid silver;
+}
+.oil{
+    flex: 1;
+    height: 90vh;
+    display: block;
+    text-align: center;
+}
+.whoweare{
+    display: flex;
+    height: 100vh;
+    background-image: url("plovdiv.jpg");
+    background-size: 100% 100%;
+}
+.who-we-are-content{
+ display: flex;
+ margin-top: 20vh;
+ margin-left: 20%;
+ height: 100vh;
+ 
+ width: 60%;
+}
+.who-we-are-content-picture{
+    flex: 1;
+    background-image: url("amployee.jpg");
+    background-size: 100% 100%;
+}
+.who-we-are-content-text{
+    
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    background-color: #070f24;
+}
+.about-us{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Julee', cursive;
+    color: white;
+
+}
+#carousel {
+position: relative;
+width:60%;
+margin:0 auto;
+}
+
+#slides {
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 250px;
+}
+
+#slides ul {
+list-style: none;
+width:100%;
+height:250px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+ #slides li {
+width:100%;
+height:250px;
+float:left;
+text-align: center;
+position: relative;
+font-family:lato, sans-serif;
+}
+
+.btn-bar{
+    max-width: 346px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+ #buttons {
+padding:0 0 5px 0;
+float:right;
+}
+
+#buttons a {
+text-align:center;
+display:block;
+font-size:50px;
+float:left;
+outline:0;
+margin:0 60px;
+color: white;
+text-decoration:none;
+display:block;
+padding:9px;
+width:35px;
+}
+
+a#prev:hover, a#next:hover {
+color:#FFF;
+text-shadow:.5px 0px #b14943;  
+}
+
+.quote-phrase, .quote-author {
+font-family:sans-serif;
+font-weight:300;
+display: table-cell;
+vertical-align: middle;
+padding: 5px 20px;
+font-family:'Lato', Calibri, Arial, sans-serif;
+}
+
+.quote-phrase {
+height: 200px;
+font-size:34px;
+color:white;
+font-style:italic;
+text-shadow:.5px 0px black;  
+}
+
+.quote-marks {
+font-size:30px;
+padding:0 3px 3px;
+position:inherit;
+}
+
+.quote-author {
+font-style:normal;
+font-size:20px;
+color:white;
+font-weight:400;
+height: 30px;
+}
+
+.quoteContainer, .authorContainer {
+display: table;
+width: 100%;
+}
+.slider{
+   justify-content: center;
+   display: flex;
+   height: 120vh;
+   align-items: center;
+   background-image: url("feedback.jpg");
+   background-size: 100% 100%;
+   background-repeat: none;
+   margin: 0vh 10vh 0vh 10vh;
+}
+footer{
+    
+    height: 30vh;
+    margin: 0vh 10vh 0vh 10vh;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  #17213b;
+    height: 30vh;
+}
+.first-f-col{
+    color: white;
+    height: 30vh;
+    flex: 1;
+    font-family: 'Nosifer', cursive;
+    border-right: 1px solid white; 
+    
+}
+.second-f-col,.third-f-col{
+    color: white;
+    height: 30vh;
+    font-size: 30px;
+flex: 1;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border-right: 1px solid white;    
+}
+
+.platforms{
+    flex: 1;
+}
+.by-me{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: goldenrod;
+    height:10vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width: 1024px) {
+
+    .logo-container{
+        display: none;
+        
+    }
+
+    #cover-img1{
+        height: 120px;
+        padding: 37vh 0px 0vh 56vh;
+       
+    }
+    #cover-img2{
+        height: 150px;
+        padding: 48vh 0px 0vh 30vh;
+       
+    }
+    #cover-img3{
+        height: 110px;
+        padding: 48vh 0px 0vh 45vh;
+        
+    }
+    #cover-img4{
+        height: 60px;
+        padding: 42vh 0px 0vh 60vh;
+        
+    }
+    #cover-img5{
+        height: 60px;
+        padding: 62vh 0px 0vh 35vh;
+        
+    }
+    #cover-img6{
+        height: 70px;
+        padding: 62vh 0px 0vh 55vh;
+       
+    }
+    .beard{
+        font-size: 8px;
+    }
+    #beard-pr{
+        font-size: 20px;
+    }
+    .content-b-part1,.content-b-part2,.content-b-part3{
+        font-size: 8px;
+    }
+    .content{
+        margin-top: 60px;
+        display: flex;
+        height:30px ;
+        margin-left: 50px;
+        margin-right: 80px;
+
+}
+#sc{
+    height: 15px;
+}
+.scrolll{
+    font-size: 10px;
+}
+.art-t{
+    font-size: 10px;
+}
+#h1-beard-pr{
+    font-size: 15px;
+}
+.shampoo img,.oil img,.vax img{
+    height: 100px;
+    padding-top: 20px;
+}
+#href-beard-pr{
+    display: flex;
+    font-size: 14px;
+    margin-top: 16vh;
+}
+.shampoo ,.oil,.vax{
+    font-size: 10px;
+}
+.articles{
+    height: 80vh;
+}
+.shampoo,.vax{
+    height: 70vh;
+    
+   
+}
+.about-us{
+    font-size: 15px;
+}
+#quote-phrase{
+    font-size: 5px;
+    width: 10px;
+}
+.quote-phrase, .quote-author{
+    font-size: 5px;
+    width: 10px;
+}
+#slides li {
+    width: 10px;
+}
+#slides{
+    
+    width: 10px;
+}
+#slides ul{
+    width: 100px;
+}
+#carousel {
+    width: 100px;
+}
+.quote-marks{
+    font-size: 5px;
+    width: 100px;
+}
+.quoteContainer, .authorContainer {
+    display: table;
+    width: 100px;
+
+}
+.quote-author{
+    width: 100px;
+}
+.slide{
+    width: 100px;
+}
+.btn-bar{
+    text-align: center;
+    display: flex;
+   justify-content: center;
+    
+}
+.slider{
+    margin: 0px 10px 0px 10px;
+}
+footer{
+
+    margin: 0px 10px 0px 10px;
+}
+.first-f-col{
+   font-size: 10px;
+    
+}
+.second-f-col,.third-f-col{
+
+    color: white;
+    font-size: 15px;
+      
+}
+.footer{
+    display: flex;
+    height: 30vh;
+}
+
+
+
+}
+
+
+
+
+
